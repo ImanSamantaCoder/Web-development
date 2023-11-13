@@ -1,0 +1,285 @@
+*
+{
+    margin: none;
+}
+.container-fluid
+{
+   background-image:url("front.avif");
+   height:600px;
+   background-size: cover;
+   opacity: 1;
+   display: grid;
+   grid-template-rows:(2,1fr);
+   row-gap:10px;
+   align-self: start;
+   
+
+
+}
+
+.navv button
+{
+    color: azure;
+    padding: 20px;
+}
+
+.navv{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-items: center;
+    justify-self: center;
+    position: relative;
+    top: -62px;
+}
+.logo
+{
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+h1{
+    color:white;
+}
+button:hover
+{
+    color:white;
+}
+.mb-3
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1rem;;
+
+}
+@media(max-width:500px)
+{
+    .mb-3{
+        flex-wrap: wrap;
+    }
+}
+.abot{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 25%;
+    font-size:1.1rem;
+    color:dimgray
+}
+
+@media(max-width:800px){
+    .abot{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2% 15%;
+        font-size:1.1rem;
+        
+    }
+}
+
+@media(max-width:900px){
+    .abot{
+        padding:0.1rem 1rem;  
+    }
+}
+.resturant{
+
+   /* display:flex;
+    
+   
+    /*margin-left:10% ;
+    margin-right: 10%;*/
+    width:100%;
+   
+   
+    
+    
+
+}
+.res{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:4% ;
+    margin-right:4%;
+    justify-content: center;
+    background-color:rgb(255, 252, 252);
+   
+}
+#nm{
+    height:68px;
+    width:370px;
+    border:0.5px solid gainsboro;
+    border-radius: 5px;
+    margin:4px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+   
+    
+}
+#nm a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+#nm i{
+    font-size: 20px;
+    position:realative;
+    padding-left:100px;
+   
+    
+   /*justifghty-content:space-between;*/
+}
+div[id="nm"]:hover
+{ 
+    background-color: whitesmoke;
+    box-shadow: 5px 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer;
+}
+button[type]:hover
+{
+   color:aliceblue;
+}
+button[type]:active
+{
+   color:aliceblue;
+}
+p{
+    font-size: 20px;
+    text-align:center;
+}
+
+
+/*@media screen and (min-width: 590px) and (max-width: 1000px) {
+    .resturant{
+
+        display:flex;
+        flex-wrap: wrap;
+        position: absolute;
+        margin-left:25% ;
+        margin-right: 10%;
+       
+       
+        
+        
+    
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 650px) {
+    .resturant{
+
+        display:flex;
+        flex-wrap: wrap;
+        position: absolute;
+        margin-left:20% ;
+        margin-right: 10%;
+       
+       
+        
+        
+    
+    }
+}
+*/
+a{
+    text-decoration: none;
+}
+
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+  }
+
+  .foot
+  {
+    width:100%;
+    height:100%;
+    background-color:rgb(192, 188, 188);
+    display: flex;
+    justify-content: center;
+    
+  }
+#headfoot
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding:10px;
+    
+}
+.out1
+{
+   width: 70%;
+   
+}
+.out11
+{
+   display: flex;
+   flex-direction: row;
+   
+}
+#country
+{
+    
+    
+}
+#footname h3
+{
+   font-size: 30px;
+}
+
+#headfoot select{
+    font-size: 28px;
+}
+#country
+{
+    background-color: black;
+    color:white;
+}
+.nav-about
+{
+    
+    width:100%;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(192, 188, 188);
+}
+#fnav
+{
+    height: 300px;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(192, 188, 188);
+
+}
+h5
+{
+    font-weight: bolder;
+}
+h3{
+    font-weight: 900;
+}
+#lang
+{
+    background-color: black;
+    color: white;
+}
